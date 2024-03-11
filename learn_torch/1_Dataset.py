@@ -23,7 +23,7 @@ class MyDataset(Dataset):
         return len(self.img_name_list)
 
 
-root_dir = '/Users/lycoris/Desktop/extend/learn_torch/data/train'
+root_dir = 'data/train'
 ants_label_dir = 'ants'
 bees_label_dir = 'bees'
 ants_dataset = MyDataset(root_dir, ants_label_dir)
@@ -31,4 +31,7 @@ bees_dataset = MyDataset(root_dir, bees_label_dir)
 
 train_dataset = ants_dataset + bees_dataset
 
+for i in range(10):
+    img, label = train_dataset[i]
+    print(img, label)
 
