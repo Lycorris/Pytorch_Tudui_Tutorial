@@ -1,6 +1,6 @@
 # Pytorch_Tudui_Tutorial
 
- b站土堆Pytoch教程的实战代码
+ b站土堆Pytorch教程的对应代码
 
 https://www.bilibili.com/video/BV1hE411t7RN/?p=27&spm_id_from=pageDriver&vd_source=d5d6f71cb295288c6d7c8106d13c7161
 
